@@ -7,7 +7,7 @@ from django_extensions.db.models import (
 )
 
 class Contact(
-	TimeStampedModel, 
+	TimeStampedModel,   
 	ActivatorModel,
 	TitleDescriptionModel,
 	Model
